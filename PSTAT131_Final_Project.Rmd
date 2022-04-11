@@ -3,8 +3,8 @@ title: "PSTAT 131 Final Project Data Memo"
 author: "Tao Wang"
 date: '2022-04-10'
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 #### Final project data memo
