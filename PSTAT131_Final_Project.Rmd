@@ -9,7 +9,8 @@ output:
 
 #### Final project data memo
 
-"According to the CDC, heart disease is one of the leading causes of death for people of most races in the US (African Americans, American Indians and Alaska Natives, and white people). About half of all Americans (47%) have at least 1 of 3 key risk factors for heart disease: high blood pressure, high cholesterol, and smoking. Other key indicator include diabetic status, obesity (high BMI), not getting enough physical activity or drinking too much alcohol." (From https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease) In fact, not only in the United States, a large number of people die of heart disease all over the world every year. Therefore, I choose to study some key indicators of heart disease to help people better understand and prevent heart disease.
+
+* "According to the CDC, heart disease is one of the leading causes of death for people of most races in the US (African Americans, American Indians and Alaska Natives, and white people). About half of all Americans (47%) have at least 1 of 3 key risk factors for heart disease: high blood pressure, high cholesterol, and smoking. Other key indicator include diabetic status, obesity (high BMI), not getting enough physical activity or drinking too much alcohol." (From https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease) In fact, not only in the United States, a large number of people die of heart disease all over the world every year. Therefore, I choose to study some key indicators of heart disease to help people better understand and prevent heart disease.
 
 
 ##### An overview of my dataset 
@@ -31,11 +32,12 @@ I will working with boolean, string, numeric type data. For the result of our co
 
 
 ##### An overview of my research question(s)
-For the purpose of our project, we want to find which variables have a significant effect on the likelihood of heart disease. In order to do it, we should analyze all the predictors (BMI, Smoking, …) since all these predictors may have an impact on heart disease. The response variable is HeartDisease, which can tell us whether the respondents had heart disease ("Yes" - respondent had heart disease; "No" - respondent had no heart disease). I think these question will be best answered with regression approach. From what I've studied in medicine, I think the predictors BMI, Smoking, AlcoholDrinking, Stroke, SleepTime will be especially useful. Since we want to find which variables have a significant effect on the likelihood of heart disease, then we can know that the goal of our model is inferential. (It means we want to find the the relationship between the response variable and each predictor, and then we can find some predictors have a significant effect on the likelihood of heart disease.)
+* For the purpose of our project, we want to find which variables have a significant effect on the likelihood of heart disease. In order to do it, we should analyze all the predictors (BMI, Smoking, …) since all these predictors may have an impact on heart disease. The response variable is HeartDisease, which can tell us whether the respondents had heart disease ("Yes" - respondent had heart disease; "No" - respondent had no heart disease). I think these question will be best answered with regression approach. From what I've studied in medicine, I think the predictors BMI, Smoking, AlcoholDrinking, Stroke, SleepTime will be especially useful. Since we want to find which variables have a significant effect on the likelihood of heart disease, then we can know that the goal of our model is inferential. (It means we want to find the the relationship between the response variable and each predictor, and then we can find some predictors have a significant effect on the likelihood of heart disease.)
 
 
 
 ##### My proposed project timeline
+
 This is week2, and I have chosen my data set. I will focus on my final project on every Friday (since I can go to the office hour and get help.)
 
 In week 3, I will load my data set (my sure which data set I can used https://www.kaggle.com/datasets/alexteboul/heart-disease-health-indicators-dataset or https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease), and I will convert the booleans and string variables into numeric variable to help us analyze the data.
